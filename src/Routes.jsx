@@ -18,3 +18,9 @@ var Routes = (
 );
 
 module.exports = Routes;
+
+
+//Note
+/*
+Checkout route histiry and the history to remove hash history. the hsah is to support old browsers
+*/

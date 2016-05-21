@@ -24812,6 +24812,11 @@ var Routes = React.createElement(
 
 module.exports = Routes;
 
+//Note
+/*
+Checkout route histiry and the history to remove hash history. the hsah is to support old browsers
+*/
+
 },{"./components/Base.jsx":230,"./components/Page1.jsx":231,"./components/Page2.jsx":232,"react":227,"react-router":31}],230:[function(require,module,exports){
 var React = require('react');
 
