@@ -24821,22 +24821,33 @@ Checkout route histiry and the history to remove hash history. the hsah is to su
 var React = require('react');
 
 var Base = React.createClass({
-  displayName: 'Base',
+  displayName: "Base",
 
   render: function () {
     return React.createElement(
-      'div',
+      "div",
       null,
       React.createElement(
-        'h1',
-        null,
-        'Header'
+        "h1",
+        { href: "/page1" },
+        "Header"
+      ),
+      React.createElement(
+        "a",
+        { href: "#/page1" },
+        "Page1"
+      ),
+      " ",
+      React.createElement(
+        "a",
+        { href: "#/page2" },
+        "Page2"
       ),
       this.props.children,
       React.createElement(
-        'h1',
+        "h1",
         null,
-        'Footer'
+        "Footer"
       )
     );
   }
